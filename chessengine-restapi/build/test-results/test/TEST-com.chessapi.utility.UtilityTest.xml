@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.chessapi.utility.UtilityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-20T23:04:26" hostname="Unaizas-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="getSession" classname="com.chessapi.utility.UtilityTest" time="0.004"/>
+  <testcase name="removeSession" classname="com.chessapi.utility.UtilityTest" time="0.0"/>
+  <testcase name="getNextMove" classname="com.chessapi.utility.UtilityTest" time="0.0"/>
+  <testcase name="addSession" classname="com.chessapi.utility.UtilityTest" time="0.0"/>
+  <system-out><![CDATA[1 found!!! 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
