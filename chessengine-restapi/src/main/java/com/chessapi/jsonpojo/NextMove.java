@@ -22,4 +22,11 @@ public class NextMove {
         this.squareTo = squareTo;
     }
 
+    @Override
+    public String toString() {
+        return "NextMove{" +
+                "squareFrom='" + squareFrom + '\'' +
+                ", squareTo='" + squareTo + '\'' +
+                '}';
+    }
 }

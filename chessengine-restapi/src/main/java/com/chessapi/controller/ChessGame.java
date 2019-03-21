@@ -83,7 +83,7 @@ public class ChessGame {
 
             //creating the response
             response.setStatus(0);
-            response.setMessage("New Game ready to be played. Session id = " + sessionid);
+            response.setMessage("New Game ready to be played. Session id =" + sessionid);
             if (!game.getisFirstMove()) {
                 NextMove nextMove = utility.getNextMove(chessEngine);
                 response.setNextMove(nextMove);

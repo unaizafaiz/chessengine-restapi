@@ -2,7 +2,7 @@ package com.chessapi.jsonpojo;
 
 public class Response {
     int status;
-    NextMove nextmove;
+    NextMove nextmove = new NextMove();
 
     public String getMessage() {
         return message;
@@ -28,5 +28,14 @@ public class Response {
 
     public void setNextMove(NextMove nextMove) {
         this.nextmove = nextMove;
+    }
+
+    @Override
+    public String toString() {
+        return "Response{" +
+                "status=" + status +
+                ", nextmove=" + nextmove +
+                ", message='" + message + '\'' +
+                '}';
     }
 }
