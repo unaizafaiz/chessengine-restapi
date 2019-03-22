@@ -1,10 +1,6 @@
 package restmediator.requests;
 
-import com.chessapi.jsonpojo.NextMove;
-import com.chessapi.jsonpojo.Response;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -13,6 +9,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
+import restmediator.pojo.Response;
 
 import java.io.BufferedReader;
 import java.io.IOException;

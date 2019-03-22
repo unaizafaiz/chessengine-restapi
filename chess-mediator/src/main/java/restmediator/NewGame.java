@@ -1,11 +1,13 @@
 package restmediator;
 
-import com.chessapi.jsonpojo.NextMove;
-import com.chessapi.jsonpojo.Response;
-import com.restmediator.requests.CRUD;
+
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.json.JSONObject;
+
+import restmediator.pojo.NextMove;
+import restmediator.pojo.Response;
+import restmediator.requests.CRUD;
 
 import java.sql.SQLOutput;
 
