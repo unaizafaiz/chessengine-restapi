@@ -1,7 +1,5 @@
 package com.javaopenchess.engine.utilities;
 
-import pl.art.lach.mateusz.javaopenchess.core.moves.Move;
-
 public class MyMove {
     String from;
     String to;

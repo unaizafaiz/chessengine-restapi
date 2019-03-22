@@ -18,6 +18,10 @@ import pl.art.lach.mateusz.javaopenchess.utils.Settings;
 
 import java.util.ArrayList;
 
+/*
+    Wrapper for java open chess game
+    (javaopenchess.jar under libs/ folder)
+ */
 public class ChessEngine{
 
     private String playerName;
@@ -31,10 +35,11 @@ public class ChessEngine{
 
     private String message;
 
-
     public ChessEngine(String playerName, boolean isFirstMove) {
         this.playerName = playerName;
         this.isFirstMove = isFirstMove;
+
+        //If isFirstMove==true then it implies that the player is WHITE
         if(isFirstMove) {
             player = PlayerFactory.getInstance(playerName, Colors.WHITE, PlayerType.COMPUTER);
             Player playerComp = PlayerFactory.getInstance("comp", Colors.BLACK, PlayerType.COMPUTER);
@@ -46,7 +51,7 @@ public class ChessEngine{
 
             game.setSettings(sett);
 
-        }else{
+        }else{ //player is BLACK
             player = PlayerFactory.getInstance(playerName, Colors.BLACK, PlayerType.COMPUTER);
             Player playerComp = PlayerFactory.getInstance("comp", Colors.WHITE, PlayerType.COMPUTER);
             Settings sett = game.getSettings();
@@ -58,14 +63,19 @@ public class ChessEngine{
             game.setSettings(sett);
             }
 
+        //Setting the chessboard
         game.getChessboard().setPieces4NewGame(game.getSettings().getPlayerWhite(), game.getSettings().getPlayerBlack());
         game.setActivePlayer(game.getSettings().getPlayerWhite());
-        if (game.getActivePlayer().getPlayerType() != PlayerType.LOCAL_USER)
+        /*if (game.getActivePlayer().getPlayerType() != PlayerType.LOCAL_USER)
         {
             game.setBlockedChessboard(true);
-        }
+        }*/
+
+        //Getting and AI to make the alternate move
         chessboard = game.getChessboard();
         game.setAi(AIFactory.getAI(1));
+
+        //If player black then AI is white and makes the first move
         if(!isFirstMove){
             game.doComputerMove();
         }
@@ -87,6 +97,10 @@ public class ChessEngine{
         return isFirstMove;
     }
 
+    /**
+     * Get isEndOfGame value
+     * @return
+     */
     public Boolean isEndOfGame(){
         return isEndGame;
     }
@@ -95,11 +109,19 @@ public class ChessEngine{
         this.isFirstMove = isFirstMove;
     }
 
+    /**
+     * Get Game instance for this player
+     * @return
+     */
     public Game myGame(){
         return game;
     }
 
 
+    /**
+     * Getting the last move that was made
+     * @return
+     */
     public String waslastMove() {
         Move lastMove = game.getMoves().getLastMoveFromHistory();
         String fromSquare = lastMove.getFrom().getAlgebraicNotation();
@@ -107,7 +129,13 @@ public class ChessEngine{
         return fromSquare+"-"+toSquare;
     }
 
-
+    /**
+     * Method to make a new move
+     * (also sets the next move by the AI if move by player successful
+     * @param from Square algebraic notation eg. a8,g7
+     * @param to square algebraic notation
+     * @return
+     */
     public Boolean move(String from, String to) {
         int beginX = from.charAt(0)-'a';
         int beginY = 8-Character.getNumericValue(from.charAt(1));
@@ -140,8 +168,10 @@ public class ChessEngine{
 
     }
 
+    /**
+     * Checking if the King if checkmated or stalemated after a move
+     */
     private void checkKing() {
-        // checkmate or stalemate
         King king;
         if (isFirstMove)
         {

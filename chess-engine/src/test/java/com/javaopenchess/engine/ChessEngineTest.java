@@ -1,11 +1,6 @@
 package com.javaopenchess.engine;
 
-import com.javaopenchess.engine.utilities.MyMove;
 import org.junit.Test;
-import pl.art.lach.mateusz.javaopenchess.core.Game;
-import pl.art.lach.mateusz.javaopenchess.core.ai.AI;
-import pl.art.lach.mateusz.javaopenchess.core.ai.AIFactory;
-import pl.art.lach.mateusz.javaopenchess.core.moves.Move;
 
 import static org.junit.Assert.*;
 
@@ -123,12 +118,5 @@ public class ChessEngineTest {
             count++;
             System.out.println(chessEngine_playerWhite.printAllMoves());
         }
-      //  System.out.println(chessEngine_playerWhite.isEndOfGame());
-      //  System.out.println(chessEngine_playerBlack.isEndOfGame());
-      //  System.out.println(chessEngine_playerWhite.gameEndMessage());
-      //  System.out.println(chessEngine_playerBlack.gameEndMessage());
-
-
-
     }
 }
