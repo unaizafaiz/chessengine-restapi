@@ -28,4 +28,13 @@ public class MakeMove {
     public void setSquaretwo(String squaretwo) {
         this.squaretwo = squaretwo;
     }
+
+    @Override
+    public String toString() {
+        return "MakeMove{" +
+                "sessionid=" + sessionid +
+                ", squareone='" + squareone + '\'' +
+                ", squaretwo='" + squaretwo + '\'' +
+                '}';
+    }
 }

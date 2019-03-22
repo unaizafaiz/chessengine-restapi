@@ -21,4 +21,11 @@ public class Game {
         this.isFirstMove = isFirstMove;
     }
 
+    @Override
+    public String toString() {
+        return "Game{" +
+                "playerName='" + playerName + '\'' +
+                ", isFirstMove=" + isFirstMove +
+                '}';
+    }
 }

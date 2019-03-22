@@ -21,4 +21,12 @@ public class Session {
     public void setChessEngine(ChessEngine chessEngine) {
         this.chessEngine = chessEngine;
     }
+
+    @Override
+    public String toString() {
+        return "Session{" +
+                "sessionid=" + sessionid +
+                ", chessEngine=" + chessEngine +
+                '}';
+    }
 }

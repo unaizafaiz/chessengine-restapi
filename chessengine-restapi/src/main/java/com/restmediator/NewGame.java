@@ -24,16 +24,16 @@ public class NewGame implements Runnable{
     }
     @Override
     public void run() {
-        CloseableHttpClient httpclient = HttpClients.createDefault();
-        crud.getRequest(httpclient,GET_SESSIONS);
+        CloseableHttpClient closeableHttpClient = HttpClients.createDefault();
+        crud.getRequest(closeableHttpClient,GET_SESSIONS);
 
         //Creating JSONOBJECT for player
         JSONObject jsonPlayerWhite = createPlayerJSON(playerWhite,true);
         JSONObject jsonPlayerBlack = createPlayerJSON(playerBlack,false);
 
         //Create player instances
-        Response player1Respone = crud.postRequest(httpclient,CREATE_GAME,jsonPlayerWhite);
-        Response player2Response = crud.postRequest(httpclient, CREATE_GAME, jsonPlayerBlack);
+        Response player1Respone = crud.postRequest(closeableHttpClient,CREATE_GAME,jsonPlayerWhite);
+        Response player2Response = crud.postRequest(closeableHttpClient, CREATE_GAME, jsonPlayerBlack);
 
 
         System.out.println("Player1 respon:"+player1Respone);
@@ -67,7 +67,7 @@ public class NewGame implements Runnable{
                 NextMove nextMove = responsecode.getNextMove();
                 System.out.println(nextMove);
                 JSONObject moveRequest = createMoveJSON(sessionid, nextMove);
-                responsecode = crud.postRequest(httpclient, MOVE, moveRequest);
+                responsecode = crud.postRequest(closeableHttpClient, MOVE, moveRequest);
                 System.out.println("New response code = "+responsecode.getStatus());
                 if(isWhiteTurn){
                     sessionid = p2Sessionid;
@@ -80,7 +80,7 @@ public class NewGame implements Runnable{
 
             System.out.println(responsecode.getMessage());
 
-            crud.getRequest(httpclient,GET_ALLMOVES+"/"+p1Sessionid);
+            crud.getRequest(closeableHttpClient,GET_ALLMOVES+"/"+p1Sessionid);
 
         }else{
             System.out.println("Unable to process game request");
