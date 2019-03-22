@@ -1,4 +1,4 @@
-package com.restmediator.requests;
+package restmediator.requests;
 
 import com.chessapi.jsonpojo.Response;
 import org.apache.http.client.methods.CloseableHttpResponse;

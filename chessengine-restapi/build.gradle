@@ -31,11 +31,6 @@ dependencies {
     compile files('lib/chess-engine-all-1.0-SNAPSHOT.jar')
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
-    compile('org.apache.httpcomponents:httpclient:4.5.7')
-    // https://mvnrepository.com/artifact/org.json/json
-    compile group: 'org.json', name: 'json', version: '20180813'
-    // https://mvnrepository.com/artifact/com.google.code.gson/gson
-    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("junit:junit")
 }

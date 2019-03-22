@@ -1,4 +1,4 @@
-package com.restmediator;
+package restmediator;
 
 import com.chessapi.jsonpojo.NextMove;
 import com.chessapi.jsonpojo.Response;

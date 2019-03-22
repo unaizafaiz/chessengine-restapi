@@ -1,6 +1,7 @@
 package com.javaopenchess.engine;
 
 import com.javaopenchess.engine.utilities.MyMove;
+
 import pl.art.lach.mateusz.javaopenchess.core.Chessboard;
 import pl.art.lach.mateusz.javaopenchess.core.Colors;
 import pl.art.lach.mateusz.javaopenchess.core.Game;
@@ -24,6 +25,7 @@ import java.util.ArrayList;
  */
 public class ChessEngine{
 
+   // private final Logger logger = LoggerFactory.getLogger(ChessEngine.class);
     private String playerName;
     private Boolean isFirstMove;
 
@@ -123,6 +125,7 @@ public class ChessEngine{
      * @return
      */
     public String waslastMove() {
+        //logge.debug
         Move lastMove = game.getMoves().getLastMoveFromHistory();
         String fromSquare = lastMove.getFrom().getAlgebraicNotation();
         String toSquare = lastMove.getTo().getAlgebraicNotation();

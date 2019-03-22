@@ -1,1 +1,5 @@
-1 found!!! 
+f12:41:09.209 [Test worker] DEBUG com.chessapi.utility.Utility - Request to retrieve session with id 1
+S12:41:09.213 [Test worker] DEBUG com.chessapi.utility.Utility - Session id 1found!
+j12:41:09.214 [Test worker] DEBUG com.chessapi.utility.Utility - Remove session requested for session id 2
+]12:41:11.686 [Test worker] DEBUG com.chessapi.utility.Utility - Get the next move to be made
+ç12:41:11.687 [Test worker] DEBUG com.chessapi.utility.Utility - add session requested for new session Session{sessionid=0, chessEngine=null}

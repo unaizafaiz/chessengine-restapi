@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.chessapi.utility.UtilityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-21T02:16:54" hostname="10-5-218-186.vlan876.client.wireless.uic.edu" time="0.006">
+<testsuite name="com.chessapi.utility.UtilityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-22T17:41:09" hostname="Unaizas-MacBook-Pro.local" time="2.484">
   <properties/>
-  <testcase name="getSession" classname="com.chessapi.utility.UtilityTest" time="0.005"/>
-  <testcase name="removeSession" classname="com.chessapi.utility.UtilityTest" time="0.0"/>
-  <testcase name="getNextMove" classname="com.chessapi.utility.UtilityTest" time="0.0"/>
+  <testcase name="getSession" classname="com.chessapi.utility.UtilityTest" time="0.01"/>
+  <testcase name="removeSession" classname="com.chessapi.utility.UtilityTest" time="0.001"/>
+  <testcase name="getNextMove" classname="com.chessapi.utility.UtilityTest" time="2.473"/>
   <testcase name="addSession" classname="com.chessapi.utility.UtilityTest" time="0.0"/>
-  <system-out><![CDATA[1 found!!! 
+  <system-out><![CDATA[12:41:09.209 [Test worker] DEBUG com.chessapi.utility.Utility - Request to retrieve session with id 1
+12:41:09.213 [Test worker] DEBUG com.chessapi.utility.Utility - Session id 1found!
+12:41:09.214 [Test worker] DEBUG com.chessapi.utility.Utility - Remove session requested for session id 2
+12:41:11.686 [Test worker] DEBUG com.chessapi.utility.Utility - Get the next move to be made
+12:41:11.687 [Test worker] DEBUG com.chessapi.utility.Utility - add session requested for new session Session{sessionid=0, chessEngine=null}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

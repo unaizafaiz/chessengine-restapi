@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5eec1fb5-c5e5-444a-a1f7-2d66355a07f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-mediator/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/src/main/java/com/javaopenchess/engine/ChessEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess-engine/src/main/java/com/javaopenchess/engine/ChessEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/controller/ChessGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/controller/ChessGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/MakeMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/MakeMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/NextMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/NextMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/jsonpojo/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/utility/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/utility/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/utility/Sessions.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/utility/Sessions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/chessapi/utility/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/restmediator/NewGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/restmediator/TestChessGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/main/com/restmediator/requests/CRUD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/test/com/chessapi/utility/UtilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/classes/java/test/com/chessapi/utility/UtilityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/libs/chess-game-service-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/libs/chess-game-service-0.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/reports/tests/test/classes/com.chessapi.utility.UtilityTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/reports/tests/test/classes/com.chessapi.utility.UtilityTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/reports/tests/test/packages/com.chessapi.utility.html" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/reports/tests/test/packages/com.chessapi.utility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/TEST-com.chessapi.utility.UtilityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/TEST-com.chessapi.utility.UtilityTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/controller/ChessGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/controller/ChessGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/MakeMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/MakeMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/NextMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/NextMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/jsonpojo/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/utility/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/utility/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/utility/Sessions.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/utility/Sessions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/production/classes/com/chessapi/utility/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/out/test/classes/com/restmediator/requests/CRUDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chessengine-restapi/out/test/classes/com/restmediator/requests/CRUDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/src/main/java/com/restmediator/NewGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess-mediator/src/main/java/restmediator/NewGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/src/main/java/com/restmediator/TestChessGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess-mediator/src/main/java/restmediator/TestChessGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/src/main/java/com/restmediator/requests/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess-mediator/src/main/java/restmediator/requests/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chessengine-restapi/src/test/java/com/restmediator/requests/CRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess-mediator/src/test/java/restmediator/requests/CRUDTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-601">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chess-mediator/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="unaiza_faiz_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unaiza_faiz_hw4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unaiza_faiz_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unaiza_faiz_hw4" type="462c0819:PsiDirectoryNode" />
+              <item name="chess-mediator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unaiza_faiz_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unaiza_faiz_hw4" type="462c0819:PsiDirectoryNode" />
+              <item name="chess-mediator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unaiza_faiz_hw4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unaiza_faiz_hw4" type="462c0819:PsiDirectoryNode" />
+              <item name="chess-mediator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553282245298" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eec1fb5-c5e5-444a-a1f7-2d66355a07f7" name="Default Changelist" comment="" />
+      <created>1553275347880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553275347880</updated>
+      <workItem from="1553275349826" duration="3169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3169000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-601">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chess-mediator/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
