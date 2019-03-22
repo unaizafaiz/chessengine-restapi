@@ -1,5 +1,8 @@
 package com.chessapi.jsonpojo;
 
+/**
+ * JSONObject POJO for making a move on a sessionid
+ */
 public class MakeMove {
     private long sessionid;
     private String squareone;

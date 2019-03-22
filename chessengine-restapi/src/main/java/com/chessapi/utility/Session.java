@@ -2,6 +2,11 @@ package com.chessapi.utility;
 
 import com.javaopenchess.engine.ChessEngine;
 
+/**
+ * Class to store a new Session
+ * Session id to identify the usersession/player
+ * ChessEngine instance for the usersession
+ */
 public class Session {
     private long sessionid;
     private ChessEngine chessEngine;

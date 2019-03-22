@@ -2,6 +2,9 @@ package com.chessapi.utility;
 
 import java.util.ArrayList;
 
+/**
+ * Maintains a list of all the current sessions
+ */
 public class Sessions {
     private ArrayList<Session> sessions = new ArrayList<>();
 

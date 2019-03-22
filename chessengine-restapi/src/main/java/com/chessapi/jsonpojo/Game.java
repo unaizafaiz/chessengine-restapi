@@ -1,5 +1,10 @@
 package com.chessapi.jsonpojo;
 
+/**
+ * Class to create a JSON object that contains new game request details
+ *PlayerName
+ *isFirstMove
+ */
 public class Game {
 
     private String playerName;

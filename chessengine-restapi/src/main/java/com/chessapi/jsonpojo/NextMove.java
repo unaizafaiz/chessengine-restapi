@@ -1,5 +1,9 @@
 package com.chessapi.jsonpojo;
 
+/**
+ * JSONObject POJO for next move to be made
+ *
+ */
 public class NextMove {
 
     String squareFrom;

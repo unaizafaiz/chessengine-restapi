@@ -1,5 +1,11 @@
 package com.chessapi.jsonpojo;
 
+/**
+ * POJO to receive response
+ * status = indicates pass, fail or other
+ * message
+ * nextmove: can be null if no next move to be made or player is white and first move must be obtained from user
+ */
 public class Response {
     int status;
     NextMove nextmove = new NextMove();
