@@ -1,11 +1,11 @@
 package restmediator.requests;
 
-import com.chessapi.jsonpojo.Response;
-import org.apache.http.client.methods.CloseableHttpResponse;
+
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.json.JSONObject;
 import org.junit.Test;
+import restmediator.pojo.Response;
 
 import static org.junit.Assert.*;
 

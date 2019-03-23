@@ -37,6 +37,7 @@ public class NewGame implements Runnable{
         Response player1Respone = crud.postRequest(closeableHttpClient,CREATE_GAME,jsonPlayerWhite);
         Response player2Response = crud.postRequest(closeableHttpClient, CREATE_GAME, jsonPlayerBlack);
 
+        crud.getRequest(closeableHttpClient,GET_SESSIONS);
 
         System.out.println("Player1 respon:"+player1Respone);
         System.out.println("Player2 respon:"+player2Response);

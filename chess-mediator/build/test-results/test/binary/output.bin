@@ -1,0 +1,2 @@
+s{"status":0,"message":"New Game ready to be played. Session id =8","nextMove":{"squareFrom":"f2","squareTo":"f4"}}
+…{"timestamp":"2019-03-23T00:48:56.270+0000","status":404,"error":"Not Found","message":"No message available","path":"/getSessions"}
