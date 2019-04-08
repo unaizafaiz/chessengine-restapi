@@ -1,0 +1,5 @@
+Hi Unaiza,
+It is a partially completed homework with few comments and few tests and skimpy but nicely structured documentation. You earned 3%.
+
+Thank you,
+Mark
