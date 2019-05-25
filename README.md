@@ -1,4 +1,4 @@
-# Homework 4
+# REST API for chess engine
 ## By Unaiza Faiz (651052450)
 
 ## Steps to run the program
